@@ -1,0 +1,66 @@
+.donation-range-input {
+  -webkit-appearance: none;
+  height:10px;
+  outline : none;
+  width: 100%;
+}
+
+.donation-range-input::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width:1px;
+  height:10px;
+  background:$active-color;
+  cursor:pointer;
+}
+
+.container {
+  display: flex;
+  padding: 2em;
+  justify-content: center;
+}
+
+.donation-block {
+  background-color: $background-dark;
+  padding: 1em;
+  color: $text-color;
+  font-size: 14px;
+  width: 250px;
+}
+
+.donation-header {
+  padding: 0.5em;
+  background-color: $active-color;
+}
+
+.donation-body {
+  padding: 1em 0.5em;
+
+  button {
+    border: none;
+    background-color: #1cda4e91;;
+    color: #fff;
+    padding: 0.5em 2em;
+    cursor: pointer;
+    box-shadow: 0 0 11px #00000059;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+.donation-number-input {
+  background-color: $background-light;
+  box-shadow: 0 0 11px #00000059;
+  border: none;
+  padding: 0 0.5em;
+  height: 40px;
+  border-radius: 6px;
+  color: $text-color;
+  outline: none;
+  min-width: 70px;
+}
+
+.donation-number-input::-webkit-outer-spin-button,
+.donation-number-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

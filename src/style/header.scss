@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  background-color: $background-dark;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+
+  .header-ico {
+    padding-right: 1em;
+  }
+
+  a {
+    font-size: 14px;
+    color: $text-color;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 2em;
+  }
+
+  .active {
+    color: $active-color;
+  }
+
+  .login-btn {
+    background-color: inherit;
+    border: none;
+    color: $text-color;
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none;
+  }
+}

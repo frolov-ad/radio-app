@@ -1,0 +1,36 @@
+.top-table {
+  border-spacing: 0 10px;
+  width: 100%;
+  padding: 2em;
+
+  tbody {
+    background-color: $background-dark;
+    text-align: center;
+    color: $text-color;
+    font-size: 14px;
+
+    tr {
+      box-shadow: 0 0 11px #00000059;
+    }
+  }
+
+  td {
+    padding: 0 1em;
+  }
+}
+
+.like-btn {
+  cursor: pointer;
+}
+
+.like-btn.active {
+  color: $active-color;
+}
+
+.album-name {
+  max-width: 400px;
+}
+
+.track-name {
+  max-width: 200px;
+}
